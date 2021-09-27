@@ -1,0 +1,116 @@
+body {
+    font-family: 'Antic Slab';font-size:15px;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    
+  }
+  
+  head{
+    padding: 0px;
+  }
+  #outside {
+    background-color: rgb(184, 188, 226);
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  
+  form {
+    margin: 0 auto;
+    width: 70%;
+    padding: 1em;
+    border: 1px solid rgb(184,188,226);
+    border-radius: 1em;
+    
+  }
+
+  @media screen and (max: width 600px){} 
+    
+  
+
+  #survey-form {
+    background-color: rgb(204, 205, 219);
+  }
+  
+  fieldset { 
+    border:1px solid rgb(126, 124, 124);
+    margin: 10px;
+   }
+  
+  legend {
+    font-weight: 700;
+  }
+  
+  #number {
+    width: 150px;
+  }
+  
+  
+  div + div {
+    margin-top: 1em;
+    }
+
+   /* label {
+       
+       display: inline-block; 
+       width: 80px; 
+       text-align: right; 
+    } */
+  
+  input, textarea {
+    width: 200px;
+    border: 1px solid rgb(143, 135, 135);
+  }
+  
+  input:focus, textarea:focus {
+    border-color: rgb(48, 92, 105);
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+  }
+  
+  .button {
+    padding-left: 90px; 
+  }
+  
+  button {
+    margin: .5em;
+    font-size: 1em;
+    text-transform: capitalize;
+    background-color: rgb(124, 134, 196);
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 2px;
+    
+  }
+  
+  #submitbutton {
+    display: flex; 
+    justify-content: center;
+  }
+
+  title{
+   font-weight: bold;
+  }
+  
+  #num, #num1, #num2, #num3, #num4, #num5, #num6, #num7, #num8 {
+    font-style:italic;
+  }
+
+  #description {
+    font-style: italic;
+  }
+
+  .dugmici{
+    display: inline-block;
+  width:25%;
+  }
